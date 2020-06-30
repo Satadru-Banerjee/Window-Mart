@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+ 
+body{
+background-color: white;
+font-family: 'Acme', sans-serif; 
+font-size: 50;
+font-weight: bold;
+color: #21056d;
+}
+
+td{
+    padding: 5px;
+}
+
+#cus_table1{
+    padding: 10px;
+    background-color: #fffbb3;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 20px;
+}
+
+#cus_table2{
+  padding: 2px;
+  background-color: #fffbb3;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  border-radius: 0px;
+}
+
+#cus_table2 td, #cus_table2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cus_table2 tr:nth-child(even){background-color: #fae56f;}
+
+#cus_table2 tr:hover {background-color: #ddd;}
+
+#cus_table2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(5, 6, 66);
+  color: white;
+}
+
+
+input[type=text],[type=date],[type=month],[type=number],[type=email],[type=url],[type=password],[type=week],[type=time],select, textarea {
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 15px;
+    font-weight: bold;
+    color:#0C0D4C ;
+  }
+
+  
+input[type=submit],[type=reset]{
+    background-color: rgb(12, 4, 80);
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.10s; /* safary */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  input[type=submit]:hover {
+    background-color: #2d29f7;
+    color: yellow; 
+  }
+  
+  input[type=reset]:hover {
+    background-color: #2d29f7;
+    color: yellow;
+  }
+
+ 
+ #cus_btn{
+    background-color: rgb(12, 4, 80);
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.10s; /* safary */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  #cus_btn:hover {
+    background-color: #2d29f7;
+    color: yellow;
+  }
+
+
+
+ 
+  ::placeholder {
+    color: #b7abd9;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #b7abd9;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color:  #b7abd9;
+  }
+
+  
