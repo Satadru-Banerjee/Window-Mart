@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='icon' href='Capture.PNG'>   
+    <style>
+        body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    </style>     
+    </head>
+    
+    <body>
+    <center><img src='Capture.PNG' width='100'>
+    <table class="w3-table" id='cus_table2'>
+    <caption><h1>Your Cart</h1></caption>
+    <tr><th>SL</th><th>Product Name</th><th>Qty</th><th>Price</th><th>Edit</th><th>Delete</th></tr>
+    
+    <tr><td>1</td>
+        <td>Laptop</td>
+        <td>1</td>
+        <td>50000</td><td><a href='Edit?id="+ p.getId()+"'>Edit</a></td>
+        <td><a href='Delete?id="+p.getId()+"'>Delete</a></td>
+    </tr>
+    <tr>
+        <td colspan=4> <a href='showcase.html' style="color: blue;">Continue shopping</a></td>
+        <td colspan=2> <a href='checkout.html' style="color: darkgreen;">Proceed to checkout</a></td>
+    </tr>
+    </table></center></body>
