@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://biggeeks.in/responsiveform.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title> Window-Mart-User Details </title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],[type=date],[type=month],[type=number],[type=email],[type=url],[type=password],[type=week],[type=time],select, textarea {
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  font-size: 15px;
+  font-weight: bold;
+  color:#000000 ;
+}
+
+label {
+  padding: 12px 12px 10px 0px; /* Top Right Buttom Left */
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  color:black;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type=range]:hover {
+  opacity: 1;
+}
+
+
+input[type=submit],[type=reset] {
+  background-color: #9897a1;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.10s; /* safary */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+
+input[type=submit]:hover {
+  background-color: #fd6802;
+  color: yellow;
+
+}input[type=reset]:hover {
+  background-color: #fd6802;
+  color: yellow;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #dde4e7; /* blue */
+  padding: 30px;
+  margin: 30px 30px 30px 30px;   /* top right buttom left*/
+  box-shadow: 15px -13px 5px 0px rgba(0,0,0,0.50);
+}
+
+.col-30 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+
+.col-40 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 10px;
+}
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+}
+.col-70 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+  padding: 10px;
+}
+.col-80 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+.col-100 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the one columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .col-25, .col-50, .col-75, input[type=submit],[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+	<left> <h1 style="font-size:5vw;">User Details</h1></left>
+ 
+<p>your current saved details</p>
+
+<div class="container">  
+  <form action="http://biggeeks.in/responsiveform.html#">
+  <div class="row">
+    <div class="col-100">
+        <label>Full Name:</label> 
+    	<input type="text" id="fname" name="fulltname" placeholder="Your full name.." maxlength="50" required="">      
+    </div>
+	    
+
+  </div>
+
+  <div class="row">
+    <div class="col-100">
+        <label>Delivery Address:</label> 
+    	<input type="text" id="add1" name="address1" placeholder="Complete Address">      
+    </div>
+  </div>
+    
+<div class="row">
+	<div class="col-100">
+		<label>Phone Number:</label> 
+	</div>
+</div>
+<div class="row">
+	<div class="col-30">
+    	<input type="number" id="acode" name="areacode" placeholder="Area Code">
+	</div>
+	<div class="col-70">
+    	<input type="number" id="pnum" name="phonenumber" placeholder="Phone Number">
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-30">
+        <center> <input type="Submit" value="Continue"> </center>
+    </div>
+</div>
+  </form>
+
+
+
+</body></html>
