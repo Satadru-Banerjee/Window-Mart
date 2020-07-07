@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/ViewParticipants")
-ppublic class ShowCart extends HttpServlet {
+public class ShowCart extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
@@ -17,4 +17,5 @@ ppublic class ShowCart extends HttpServlet {
 
         out.print("<html><head>");
         
+}
 }    
